@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-right: 40px;
+    margin-top: 40px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    height: 8vh;
+    margin: 0 1em;
+    font-family: 'Roboto', sans-serif; 
+}
+.logo img{
+    margin-right: 400px;
+}
+.uff {
+    display: flex;
+    justify-content:space-around;
+    width: 30%;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:gray ;
+}
+.icons{
+    margin-right: 40px;
+}
+.sec{
+    background:url(./photo\ tea.png) no-repeat center center/cover;
+    height: 100vh;
+    margin: 35px 40px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+.sec p{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    color: rgb(104, 102, 102);
+    font-family: 'Roboto', sans-serif; 
+    margin: 40px 68px 20px 0px;
+}
+.sec .box{
+    border: 1px solid #56593D;
+    margin:20px 64px 64px 260px;
+    color: white;
+    height: 56px;
+    width: 154px;
+    font-size: 16px;
+    background:#56593D;
+
+}
+.sec h5{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(87, 85, 85);
+    margin-right: 68px;
+}
+.eco p{
+text-align: center;
+font-family: 'Roboto', sans-serif; 
+color: rgb(59, 58, 58);
+font-size: 40px;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+}
+.one h5{
+    border-bottom: 1px solid rgb(66, 65, 65);
+    margin-left: 240px;
+}
+.three h5{
+    margin-right: 300px;
+    border-bottom: 1px solid rgb(66, 65, 65);
+}
+.noname h4{
+    text-align: center;
+    color: rgb(70, 69, 69);
+    margin-top: 70px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif ;
+}
+.mom{
+    font-family:  'Roboto', sans-serif;
+    margin: 80px 40px 100px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.mom p{
+    transition: 1s ease-in-out;
+}
+.mom  :hover{   
+    font-size: 30px;
+    /* transform: matrix(30px); */
+}
+.mom p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+}
+.mom h5{
+    transition: 1s ease-in-out;
+}
+.mom :hover{   
+    font-size: 30px;
+    /* transform: matrix(30px); */
+}
+.mom h5{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(77, 75, 75);
+}
+.ota{
+    background: url(/sos.png) no-repeat center center/cover;
+    height: 100vh;
+    margin: 35px 40px;
+    margin-top: 100px;
+}
+.ota {
+    display:flex;
+    justify-content: center;
+    color: rgb(71, 71, 71);
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+}
+.bola p{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.bola h5{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+.fath{
+    display: flex;
+    justify-content: space-around;
+}
+.right p{
+    margin-right: 60px;
+    font-size: 25px;
+    margin-top:180px;
+    color: rgb(66, 65, 65);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.left{
+    margin: 64px 72px;
+}
+.right h5{
+    color: rgb(59, 59, 59);
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.nasr{
+    display: flex;
+    justify-content: space-around;
+}
+.right1{
+    margin: 64px -1px;
+}
+.left1 p{
+    margin-right: 60px;
+    font-size: 25px;
+    margin-top: 180px;
+    color: rgb(73, 72, 72);
+    text-align: center;
+    font-family:  'Roboto', sans-serif;
+}
+.left1 h5{
+    color: rgb(73, 73, 73);
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 30px;
+    font-family:  'Roboto', sans-serif;
+}
+.left1{
+    margin-top: 190px;
+}
+.tog button{
+    cursor: pointer;
+    transition: 1s ease;
+    border: 1px solid rgb(61, 61, 61);
+    background:red;
+    color: white;
+    margin-left: 750px;
+    margin-top: 50px;
+    padding: 5px 15px 5px 15px;
+    letter-spacing: 1px;
+}
+.tog h4{
+  text-align: center;
+  font-family:  'Roboto', sans-serif;
+  color: #4d5032;
+  font-size:25px;   
+}
+.tog p{
+    text-align: center;
+    color: #56593D;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+    font-size: 20px;
+}
+.tog{
+    margin-bottom: 60px;
+}
+.tog button:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 3s;
+    transform: rotate(240deg) translateX(180px);
+          transition: height .2s ease , opacity .3s ease;
+          height: 85%;
+          opacity: .7;
+}
+.king{
+    text-align: center;
+    font-size: 29px;
+    color: #56593D;
+    margin-top: 100px;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 20px;
+}
+.son{
+    font-size: 20px;
+}
+footer{
+    background:rgb(59, 59, 59);
+    margin-top: 200px;
+    width: 100%;
+    height: 382px;
+}
+.father{
+    color: white;
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+.like a{
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.as a{
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.en_cheti i{
+    width: 50px;
+}
+.as li{
+    list-style: none;
+    padding: 10% 0;
+}
+.ax ul{
+    display: flex;
+    justify-content: space-around;
+}
+.ux ul{
+    display: flex;
+    justify-content: space-around;
+}
+.like li{
+    list-style: none;
+    padding: 10% 0;   
+}
+.oxiri {
+    display: flex;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 300px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .oxiri li {
+    list-style: none;
+  }
+  
+  .oxiri li a {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+  }
+  
+  .oxiri li a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+  .oxiri li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
+  
+  .oxiri li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
+  
+ .oxiri  li a:hover:before {
+    top: 0;
+  }
+  
+  .oxiri li:nth-child(1) a:before{
+    background: #3b5999;
+  }
+  
+  .oxiri  li:nth-child(2) a:before{
+    background: #55acee;
+  }
+  
+   li:nth-child(3) a:before {
+    background: #0077b5;
+  }
+  
+  .oxiri li:nth-child(4) a:before {
+    background: #dd4b39;
+  }
